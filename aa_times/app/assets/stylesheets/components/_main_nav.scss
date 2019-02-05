@@ -1,0 +1,55 @@
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+	align-items: center;
+
+}
+
+.left-nav > ul > li {
+  font-family: 'arial';
+	font-size: 20px;
+	text-transform: uppercase;
+  margin: 5px;
+  // vertical-align: center;
+}
+
+.right-nav > ul > li {
+  font-family: 'arial';
+	font-size: 20px;
+	text-transform: uppercase;
+  margin: 3px;
+}
+
+.right-nav > ul > li > button{
+  background: $light-blue;
+  font-size: 14px;
+  padding: 8px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'arial';
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color:$light-gray;
+}
+
+.left-nav span {
+	margin: 3px;
+}
+
+
+
+.right-nav i {
+	font-size: 20px;
+}
